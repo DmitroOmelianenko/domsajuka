@@ -1,0 +1,19 @@
+{
+  "name": "domsajuka",
+  "homepage": "https://dmitroomelianenko.github.io/domsajuka/",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+     "deploy": "git add . && git commit -m \"deploy\" && git push"
+  },
+  "devDependencies": {
+    "vite": "^8.0.0"
+  },
+  "dependencies": {
+    "gh-pages": "^6.3.0"
+  }
+}
